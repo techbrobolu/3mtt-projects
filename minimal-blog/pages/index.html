@@ -3,13 +3,26 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../styles/index.css" />
 		<title>Minimal Blog</title>
 	</head>
 	<body>
 		<header>
 			<nav>
 				<div>
-					<img src="../assets/personally-logo.svg" alt="Minimal Blog Logo" />
+					<a href="index.html">
+						<img src="../assets/personally-logo.svg" alt="Minimal Blog Logo" />
+					</a>
+                    <label for="menu-icon-check" class="menu-icon-label">
+                        <img src="../assets/menu.svg" alt="Menu Icon" class="menu-icon" />
+                    </label>
+                    <input type="checkbox" name="menu-icon-check" id="menu-icon-check" class="menu-icon-check" />
 					<ul class="nav-links">
 						<li class="nav-link"><a href="daily-digest.html">Daily Digest</a></li>
 						<li class="nav-link"><a href="design-tools.html">Design Tools</a></li>
@@ -65,21 +78,21 @@
 								<img src="../assets/daily-digest/home-2.svg" alt="Placeholder Image" />
 							</div>
 						</article>
-                        <article class="blog-card">
-                            <div class="blog-card-content">
-                                <p class="publish-date">AUGUST 13,2021</p>
-                                <h3 class="blog-card-title">
-                                    10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
-                                </h3>
-                                <p class="blog-card-description">
-                                    Redefined the user acquisition and redesigned the onboarding
-                                    experience, all within 3 working weeks.
-                                </p>
-                            </div>
-                            <div class="blog-card-image">
-                                <img src="../assets/daily-digest/home-3.svg" alt="Placeholder Image" />
-                            </div>
-                        </article>
+						<article class="blog-card">
+							<div class="blog-card-content">
+								<p class="publish-date">AUGUST 13,2021</p>
+								<h3 class="blog-card-title">
+									10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
+								</h3>
+								<p class="blog-card-description">
+									Redefined the user acquisition and redesigned the onboarding
+									experience, all within 3 working weeks.
+								</p>
+							</div>
+							<div class="blog-card-image">
+								<img src="../assets/daily-digest/home-3.svg" alt="Placeholder Image" />
+							</div>
+						</article>
 					</div>
 				</section>
 				<section class="blog-category design-tools">
@@ -87,106 +100,106 @@
 						<h2>Design Tools</h2>
 						<a href="design-tools.html">View all</a>
 					</div>
-                    <div class="blog-list">
-                        <article class="blog-card">
-                            <div class="blog-card-content">
-                                <p class="publish-date">AUGUST 13,2021</p>
-                                <h3 class="blog-card-title">
-                                    10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
-                                </h3>
-                                <p class="blog-card-description">
-                                    Redefined the user acquisition and redesigned the onboarding
-                                    experience, all within 3 working weeks.
-                                </p>
-                            </div>
-                            <div class="blog-card-image">
-                                <img src="../assets/design-tools/home-1.svg" alt="Placeholder Image" />
-                            </div>
-                        </article>
-                        <article class="blog-card">
-                            <div class="blog-card-content">
-                                <p class="publish-date">AUGUST 13,2021</p>
-                                <h3 class="blog-card-title">
-                                    10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
-                                </h3>
-                                <p class="blog-card-description">
-                                    Redefined the user acquisition and redesigned the onboarding
-                                    experience, all within 3 working weeks.
-                                </p>
-                            </div>
-                            <div class="blog-card-image">
-                                <img src="../assets/design-tools/home-2.svg" alt="Placeholder Image" />
-                            </div>
-                        </article>
-                        <article class="blog-card">
-                            <div class="blog-card-content">
-                                <p class="publish-date">AUGUST 13,2021</p>
-                                <h3 class="blog-card-title">
-                                    10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
-                                </h3>
-                                <p class="blog-card-description">
-                                    Redefined the user acquisition and redesigned the onboarding
-                                    experience, all within 3 working weeks.
-                                </p>
-                            </div>
-                            <div class="blog-card-image">
-                                <img src="../assets/design-tools/home-3.svg" alt="Placeholder Image" />
-                            </div>
-                        </article>
-                    </div>
+					<div class="blog-list">
+						<article class="blog-card">
+							<div class="blog-card-content">
+								<p class="publish-date">AUGUST 13,2021</p>
+								<h3 class="blog-card-title">
+									10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
+								</h3>
+								<p class="blog-card-description">
+									Redefined the user acquisition and redesigned the onboarding
+									experience, all within 3 working weeks.
+								</p>
+							</div>
+							<div class="blog-card-image">
+								<img src="../assets/design-tools/home-1.svg" alt="Placeholder Image" />
+							</div>
+						</article>
+						<article class="blog-card">
+							<div class="blog-card-content">
+								<p class="publish-date">AUGUST 13,2021</p>
+								<h3 class="blog-card-title">
+									10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
+								</h3>
+								<p class="blog-card-description">
+									Redefined the user acquisition and redesigned the onboarding
+									experience, all within 3 working weeks.
+								</p>
+							</div>
+							<div class="blog-card-image">
+								<img src="../assets/design-tools/home-2.svg" alt="Placeholder Image" />
+							</div>
+						</article>
+						<article class="blog-card">
+							<div class="blog-card-content">
+								<p class="publish-date">AUGUST 13,2021</p>
+								<h3 class="blog-card-title">
+									10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
+								</h3>
+								<p class="blog-card-description">
+									Redefined the user acquisition and redesigned the onboarding
+									experience, all within 3 working weeks.
+								</p>
+							</div>
+							<div class="blog-card-image">
+								<img src="../assets/design-tools/home-3.svg" alt="Placeholder Image" />
+							</div>
+						</article>
+					</div>
 				</section>
 				<section class="blog-category tutorials">
 					<div class="category-head">
 						<h2>Tutorials</h2>
 						<a href="tutorials.html">View all</a>
 					</div>
-                    <div class="blog-list">
-                        <article class="blog-card">
-                            <div class="blog-card-content">
-                                <p class="publish-date">AUGUST 13,2021</p>
-                                <h3 class="blog-card-title">
-                                    10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
-                                </h3>
-                                <p class="blog-card-description">
-                                    Redefined the user acquisition and redesigned the onboarding
-                                    experience, all within 3 working weeks.
-                                </p>
-                            </div>
-                            <div class="blog-card-image">
-                                <img src="../assets/tutorials/home-1.svg" alt="Placeholder Image" />
-                            </div>
-                        </article>
-                        <article class="blog-card">
-                            <div class="blog-card-content">
-                                <p class="publish-date">AUGUST 13,2021</p>
-                                <h3 class="blog-card-title">
-                                    10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
-                                </h3>
-                                <p class="blog-card-description">
-                                    Redefined the user acquisition and redesigned the onboarding
-                                    experience, all within 3 working weeks.
-                                </p>
-                            </div>
-                            <div class="blog-card-image">
-                                <img src="../assets/tutorials/home-2.svg" alt="Placeholder Image" />
-                            </div>
-                        </article>
-                        <article class="blog-card">
-                            <div class="blog-card-content">
-                                <p class="publish-date">AUGUST 13,2021</p>
-                                <h3 class="blog-card-title">
-                                    10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
-                                </h3>
-                                <p class="blog-card-description">
-                                    Redefined the user acquisition and redesigned the onboarding
-                                    experience, all within 3 working weeks.
-                                </p>
-                            </div>
-                            <div class="blog-card-image">
-                                <img src="../assets/tutorials/home-3.svg" alt="Placeholder Image" />
-                            </div>
-                        </article>
-                    </div>
+					<div class="blog-list">
+						<article class="blog-card">
+							<div class="blog-card-content">
+								<p class="publish-date">AUGUST 13,2021</p>
+								<h3 class="blog-card-title">
+									10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
+								</h3>
+								<p class="blog-card-description">
+									Redefined the user acquisition and redesigned the onboarding
+									experience, all within 3 working weeks.
+								</p>
+							</div>
+							<div class="blog-card-image">
+								<img src="../assets/tutorials/home-1.svg" alt="Placeholder Image" />
+							</div>
+						</article>
+						<article class="blog-card">
+							<div class="blog-card-content">
+								<p class="publish-date">AUGUST 13,2021</p>
+								<h3 class="blog-card-title">
+									10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
+								</h3>
+								<p class="blog-card-description">
+									Redefined the user acquisition and redesigned the onboarding
+									experience, all within 3 working weeks.
+								</p>
+							</div>
+							<div class="blog-card-image">
+								<img src="../assets/tutorials/home-2.svg" alt="Placeholder Image" />
+							</div>
+						</article>
+						<article class="blog-card">
+							<div class="blog-card-content">
+								<p class="publish-date">AUGUST 13,2021</p>
+								<h3 class="blog-card-title">
+									10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
+								</h3>
+								<p class="blog-card-description">
+									Redefined the user acquisition and redesigned the onboarding
+									experience, all within 3 working weeks.
+								</p>
+							</div>
+							<div class="blog-card-image">
+								<img src="../assets/tutorials/home-3.svg" alt="Placeholder Image" />
+							</div>
+						</article>
+					</div>
 				</section>
 			</div>
 		</main>
@@ -203,8 +216,8 @@
 				</form>
 			</section>
 			<div class="footer-note">
-                <p>Copyright 2021 - Elkem Daniels</p>
-            </div>
+				<p>Copyright 2021 - Elkem Daniels</p>
+			</div>
 		</footer>
 	</body>
 </html>
