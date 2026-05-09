@@ -1,0 +1,19 @@
+@import url("./index.css");
+
+main{
+    align-items: center;
+}
+
+.blog-list{
+    width: 68%;
+    padding: 2rem 0;
+}
+
+.view-more{
+    font: var(--buton-text);
+    color: var(--primary-color);
+    background-color: var(--surface-bg);
+    padding: 5px 5px;
+    border-radius: var(--button-radius);
+    border: 1px solid gray;
+}

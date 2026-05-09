@@ -9,8 +9,8 @@
 	/* Font */
 	--nav-link-font: 500 1.25rem/1.5 "Poppins", sans-serif;
 	--buton-text: 400 calc(13.333rem / 16)/1.5 "Poppins", sans-serif;
-	--h1: 700 4.75rem/1.5 "Poppins", sans-serif;
-	--hero-desc: 400 1.25rem/1.5 "Poppins", sans-serif;
+	--h1: 700 calc(4.55rem + 0.25vw)/1.5 "Poppins", sans-serif;
+	--hero-desc: 400 calc(1rem + 0.25vw)/1.5 "Poppins", sans-serif;
 	--category-title: 600 1.25rem/1.5 "Poppins", sans-serif;
     --blog-date: 400 0.75rem/1.5 "Poppins", sans-serif;
     --blog-title: 600 calc(1rem + 0.25vw)/1.5 "Poppins", sans-serif;
@@ -131,6 +131,8 @@ nav div {
 
 main {
 	width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog-categories {
@@ -194,6 +196,11 @@ main {
     color: var(--secondary-text);
     font: var(--blog-desc);
     margin-top: 1.25rem;
+}
+
+.blog-card img{
+    width: 100%;
+    max-width: 230px;
 }
 
 footer{
@@ -292,6 +299,10 @@ form button{
 	.nav-link {
 		font-size: 0.75rem;
 	}
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
 
     .blog-card{
         flex-direction: column;
