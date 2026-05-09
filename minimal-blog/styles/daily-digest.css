@@ -1,5 +1,12 @@
 @import url("./index.css");
 
+.nav-link.daily-digest a{
+    background: var(--gradient-background);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 main{
     align-items: center;
 }
